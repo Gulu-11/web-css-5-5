@@ -1,0 +1,598 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #040405;
+}
+a {
+    text-decoration: none;
+}
+.mainNavDiv {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #003004;
+}
+.navDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1040px;
+    width: 100%;
+    height: 48px;
+}
+.logoImg {
+    height: 24px;
+}
+.menuDiv {
+    display: flex;
+    gap: 16px;
+}
+.menuDiv a {
+    color: white;
+    font-weight: 500;
+}
+.walletButton {
+    display: flex;
+    padding: 12px 24px;
+    background-color: #00FF1A;
+    border-radius: 24px;
+    border: none;
+    font-weight: 700;
+}
+.walletButton a {
+    color: #000000;
+}
+
+.welcomeConvexDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1040px;
+    width: 100%;
+}
+.fullMainDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 112px;
+    align-items: center;
+    margin-top: 112px;
+}
+.crvContentDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 564px;
+    width: 100%;
+}
+.greenLineDiv {
+    display: flex;
+    gap: 12px;
+    width: fit-content;
+    height: 24px;
+}
+.greenLineDiv p {
+    font-weight: 500;
+    line-height: 24px;
+    color: white;
+}
+.crvTitle {
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 87px;
+    color: white;
+}
+.crvDesc {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #7A7A7A;
+}
+.crvButtonDiv {
+    display: flex;
+    gap: 16px;
+}
+.stakeNowButton {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 24px;
+    font-weight: 700;
+    background-color: #00FF1A;
+}
+.stakeNowButton a {
+    color: #000000;
+}
+.how-it-workButton {
+    padding: 12px 24px;
+    border: 1px solid #00FF1A;
+    border-radius: 24px;
+    background-color: unset;
+}
+.how-it-workButton a {
+    font-weight: 700;
+    color: white;
+}
+.multiImg-1 {
+    width: 335px;
+    height: 330px;
+}
+
+.fullCrvPriceDiv {
+    display: flex;
+    max-width: 1040px;
+    width: 100%;
+}
+.crvPriceDiv {
+    display: flex;
+    max-width: 815px;
+    width: 100%;
+    gap: 40px;
+    padding-top: 24px;
+    border-top: 1px solid #00FF1A;
+}
+.crvDetailDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 158px;
+}
+.crvDetailDiv :first-child {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px;
+    color: white;
+}
+.crvDetailDiv :last-child {
+    font-size: 20px;
+    color: #7A7A7A;
+}
+
+
+.mainProviderDiv {
+    display: flex;
+    max-width: 1040px;
+    width: 100%;
+    justify-content: space-between;
+}
+.providerDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 567px;
+    width: 100%;
+}
+.providerTextDiv {
+    display: flex;
+    gap: 12px;
+}
+
+.divForGreenBall {
+    display: flex;
+    gap: 16px;
+}
+.greenBall {
+    width: 16px;
+    height: 16px;
+    background-color: #00FF1A;
+    border-radius: 50px;
+}
+.CrvSecondTitle {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 517px;
+    width: 100%;
+}
+.CrvSecondTitle :first-child {
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+.CrvSecondTitle :last-child {
+    font-weight: 400;
+    line-height: 24px;
+    color: #7A7A7A;
+}
+
+
+
+.mainOurProcessDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1040px;
+    width: 100%;
+    gap: 32px;
+}
+.howItWorkText {
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 87px;
+    color: white;
+}
+.registerInfoDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 37px;
+    max-width: 1040px;
+    width: 100%;
+}
+.registerIconDiv {
+    display: flex;
+    justify-content: space-between;
+    max-width: 863px;
+    width: 100%;
+}
+.registerIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    padding: 10px;
+    border: 1px solid #00FF1A;
+    border-radius: 4px;
+    background-color: #00FF1A1A;
+}
+.registericon {
+    width: 24px;
+    height: 24px;
+}
+
+.registerDescDiv {
+    display: flex;
+    gap: 10px;
+    max-width: 1040px;
+    width: 100%;
+}
+.registerDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 245px;
+}
+.registerDiv :first-child {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 29px;
+    color: white;
+    text-align: center;
+}
+.registerDiv :last-child {
+    font-weight: 500;
+    line-height: 24px;
+    color: #7A7A7A;
+    text-align: center;
+}
+
+
+
+
+.secondFullMainDiv {
+    margin-top: 102px;
+    display: flex;
+    flex-direction: column;
+    gap: 112px;
+    align-items: center;
+}
+.mainStakersDiv {
+    display: flex;
+    gap: 22px;
+    max-width: 1040px;
+    width: 100%;
+}
+.stakersInfoDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 509px;
+    width: 100%;
+}
+.depositMainDiv {
+    display: flex;
+    flex-direction: column;
+}
+.depositDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 0 16px 24px 16px;
+}
+.depositDiv :first-child{
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.depositDiv :last-child {
+    font-weight: 500;
+    line-height: 24px;
+    color: #7A7A7A;
+}
+.multiImg-3 {
+    height: 481px;
+}
+
+
+.mainTestimonialsDiv {
+    display: flex;
+    gap: 24px;
+    max-width: 1040px;
+    width: 100%;
+}
+.testiMonialsInfoDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 624px;
+    width: 100%;
+}
+.testiMonialsDiv-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.mainCameronDiv {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 32px;
+    background-color: #1C1C20;
+}
+.cameronDiv {
+    display: flex;
+    gap: 16px;
+}
+.cameronImg {
+    width: 104px;
+    height: 104px;
+}
+.cameronDescDiv {
+    display: flex;
+    flex-direction: column;
+}
+.cameronContentDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.icon-66 {
+    width: 32px;
+    height: 32px;
+}
+.cameronWilliamson {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+.cameronNameDiv {
+    display: flex;
+    gap: 4px;
+}
+.cameronNameDiv :first-child {
+    font-weight: 500;
+    line-height: 19px;
+    color: white;
+}
+.cameronNameDiv :last-child {
+    font-size: 14px;
+    font-weight: 500;
+    color: #7A7A7A;
+    line-height: 24px;
+}
+.startIcon {
+    width: 24px;
+    height: 24px;
+}
+.starIconDiv {
+    display: flex;
+    gap: 2px;
+}
+
+.cameronBoldtext {
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 24px;
+}
+.cameronDesctext {
+    font-size: 22px;
+    line-height: 29px;
+    color: #B7B7B7;
+}
+.cameronDesctext span {
+    color: #00FF1A;
+}
+.icon99Div {
+    display: flex;
+    justify-content: flex-end;
+}
+.icon-99 {
+    width: 32px;
+    height: 32px;
+}
+.arrowButtons {
+    display: flex;
+    gap: 16px;
+}
+.arrowButton-1 {
+    border: none;
+    border-radius: 50px;
+    background-color: #F8F8F8;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow {
+    width: 24px;
+    height: 24px;
+}
+.arrowButton-2 {
+    border: none;
+    border-radius: 50px;
+    background-color: #00FF1A;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.testiMonialsDiv-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.contactDiv {
+    display: flex;
+    flex-direction: column;
+    background-color: #1C1C20;
+    gap: 12px;
+    padding: 32px;
+}
+.contactDiv :first-child {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+.contactDiv i {
+    font-size: 22px;
+    line-height: 29px;
+    color: #B7B7B7;
+}
+.callDiv {
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    gap: 12px;
+}
+.call-icon {
+    width: 24px;
+    height: 24px;
+}
+.call-icon-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00FF1A;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+.callDiv p {
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.fullMainFormDiv {
+    display: flex;
+    align-items: center;
+    max-width: 392px;
+    width: 100%;
+    padding: 24px 32px;
+    background-color: #1C1C20;
+}
+.mainFormDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 328px;
+    width: 100%;
+}
+.formP {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+form input {
+    padding: 12px 16px;
+    max-width: 328px;
+    width: 100%;
+    background-color: #1C1C20;
+    border: 1px solid #565656;
+    border-radius: 4px;
+}
+input,textarea::placeholder {
+    font-weight: 500;
+    line-height: 24px;
+    color: #7A7A7A;
+}
+textarea {
+    padding: 12px 16px;
+    background-color: #1C1C20;
+    height: 155px;
+    resize: none;
+    border: 1px solid #565656;
+    border-radius: 4px;
+}
+#submit {
+    background-color: #00FF1A;
+    font-weight: 500;
+    line-height: 24px;
+    color: #000000;
+}
+
+
+.footerDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 224px;
+    margin-top: 225px;
+    border-top: 1px solid #00FF1A;
+}
+.footerContentDiv {
+    display: flex;
+    gap: 211px;
+}
+.footerMenuDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.footerMenuDiv :first-child {
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.footerMenuDiv a {
+    color: #7A7A7A;
+}
+
+.followUsDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.followUsDiv :first-child {
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.social-icon-div {
+    display: flex;
+    gap: 16px;
+}
+.social-icon {
+    width: 24px;
+    height: 24px;
+}
